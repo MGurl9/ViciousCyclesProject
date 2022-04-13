@@ -21,23 +21,26 @@
 </ul>
 </header>
 <body>
-    <!--Links to various product pages-->
-    <section>
-    <h2><a href="../html/Cruisers">Cruisers</a></h2>
-    <img src="../pictures/bike 1.jpg" width="600" height="400" alt="cruiser bike">
-    </section>
-    <section>
-        <h2><a href="../html/Cargo Bikes">Cargo Bikes</a></h2>
-        <img src="../pictures/bike 7.jpg" width="600" height="400" alt="cargo bike">
-    </section>
-    <section>
-        <h2><a href="../html/Accessories">Accessories</a></h2>
-        <img src="../pictures/bike 3.jpg" width="600" height="400" alt="accessories">
-    </section>
-    <section>
-        <h2><a href="../html/Parts">Parts</a></h2>
-        <img src="../pictures/bike 31.jpg" width="600" height="400" alt="parts">
-    </section>
+     <!--Page Heading-->
+     <h1>Cruisers</h1>
+     <section>
+         <!--pictures of products-->
+         <h2>Adult and Teen</h2>
+         <img src="../pictures/bike 27.jpg" alt="green bike">
+         <img src="../pictures/bike 22.jpg" alt="red bike">
+         <img src="../pictures/bike 18.jpg" alt="blue bike">
+         <img src="../pictures/bike 11.jpg" alt="2 bikes side by side">
+         <img src="../pictures/bike 4.jpg" alt="women riding bikes">
+         <img src="../pictures/bike 2.jpg" alt="2 bikes on path">
+         <img src="../pictures/bike 16.jpg" alt="bike on dock">
+     </section>
+     <section>
+         <h2>Kids</h2>
+         <img src="../pictures/bike 19.jpg" alt="kid riding bike with dad's help">
+         <img src="../pictures/bike 20.jpg" alt="family with bike">
+         <img src="../pictures/bike 17.jpg" alt="little boy on bike">
+         <img src="../pictures/bike 21.jpg" alt="girl walking with bike">
+     </section>
 </body>
 <!--Footer-->
 <footer>

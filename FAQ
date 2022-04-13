@@ -21,23 +21,26 @@
 </ul>
 </header>
 <body>
-    <!--Links to various product pages-->
-    <section>
-    <h2><a href="../html/Cruisers">Cruisers</a></h2>
-    <img src="../pictures/bike 1.jpg" width="600" height="400" alt="cruiser bike">
-    </section>
-    <section>
-        <h2><a href="../html/Cargo Bikes">Cargo Bikes</a></h2>
-        <img src="../pictures/bike 7.jpg" width="600" height="400" alt="cargo bike">
-    </section>
-    <section>
-        <h2><a href="../html/Accessories">Accessories</a></h2>
-        <img src="../pictures/bike 3.jpg" width="600" height="400" alt="accessories">
-    </section>
-    <section>
-        <h2><a href="../html/Parts">Parts</a></h2>
-        <img src="../pictures/bike 31.jpg" width="600" height="400" alt="parts">
-    </section>
+    <!--Page Heading-->
+    <h1>Frequently Asked Questions</h1>
+    <!--FQA list-->
+    <ol type="1">
+        <li>What are your store hours?</li><br>
+        <p>We are open Tuesday - Sunday from 10am to 7pm.<br>
+            Store is closed on Mondays.</p>
+        <li>Where are you located?</li><br>
+        <p>You can find us on 123 Main Street in Raleigh, NC</p>
+        <li>Do I have to shop in store?</li><br>
+        <p>Yes, you can only purchase our products in store. As of right now, we do not sell online. We are a small company, but once we grow as a business customers will be able to purchase products on our website.</p>
+        <li>Can I have my bike delivered to me?</li><br>
+        <p>No, we do not offer deliveries at this time.</p>
+        <li>What is your turn around time on bike repairs?</li><br>
+        <p>Our turn around time is 1 week. We have a small team of bike mechanics that will repair your bike.</p>
+        <li>Can I return or exchange a product?</li><br>
+        <p>Yes, we offer returns and exchanges. We have 14 day return/exchange policy. If you are not satisfied with a product or something happens to it, bring it in and we will take care of it.</p>
+        <li>Do you offer any discounts?</li><br>
+        <p>We offer deals on bike repairs to customers who have purchased from us before.</p>
+    </ol>
 </body>
 <!--Footer-->
 <footer>

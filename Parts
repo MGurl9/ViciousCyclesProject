@@ -21,23 +21,30 @@
 </ul>
 </header>
 <body>
-    <!--Links to various product pages-->
+    <!--Page Heading-->
+    <h1>Here are the parts we sell</h1>
     <section>
-    <h2><a href="../html/Cruisers">Cruisers</a></h2>
-    <img src="../pictures/bike 1.jpg" width="600" height="400" alt="cruiser bike">
+        <!--Types of parts-->
+        <h2>Gears</h2>
+        <img src="../pictures/bike 24.jpg" alt="gears on bike">
     </section>
     <section>
-        <h2><a href="../html/Cargo Bikes">Cargo Bikes</a></h2>
-        <img src="../pictures/bike 7.jpg" width="600" height="400" alt="cargo bike">
+        <h2>Pedals</h2>
+        <img src="../pictures/bike 26.jpg" alt="bike pedals">
     </section>
     <section>
-        <h2><a href="../html/Accessories">Accessories</a></h2>
-        <img src="../pictures/bike 3.jpg" width="600" height="400" alt="accessories">
+        <h2>Reflectors</h2>
+        <img src="../pictures/bike 25.jpg" alt="bike reflectors">
     </section>
     <section>
-        <h2><a href="../html/Parts">Parts</a></h2>
-        <img src="../pictures/bike 31.jpg" width="600" height="400" alt="parts">
+        <h2>Chains</h2>
+        <img src="../pictures/bike 33.jpg" alt="bike chain">
     </section>
+    <section>
+        <h2>Bike handles</h2>
+        <img src="../pictures/bike 28.jpg" alt="bike handles">
+    </section><br>
+    <br><h1>If we don't have the parts you are looking for, we recommend <a href="https://www.bikeparts.com/categories/cycling-accessories/" target="blank">Bikeparts.com</a> and <a href="https://www.saris.com/catalog/racks" target="blank">Saris.com</a> </h1><br>
 </body>
 <!--Footer-->
 <footer>

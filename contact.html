@@ -3,25 +3,32 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Bicycle Shop">
 <meta charset="utf-8">
-<title>Vicious Cycles</title><link rel="stylesheet" href="css/systems.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vicious Cycles</title><link rel="stylesheet" href="../css/systems.css">
 </head>
 <header>
-    <img src="pictures/vicious-cycles-logo.png" width="700" height="90" alt="vicious-cycles-logo">
+    <!--Logo-->
+    <img src="../pictures/vicious-cycles-logo.png" width="700" height="90" alt="vicious-cycles-logo">
     <ul>
-        <li><a href="html/products.html">products</a></li>
-        <li><a href="html/services.html">services</a></li>
-        <li><a href="html/about.html">about</a></li>
-        <li><a href="html/contact.html">contact</a></li>
+        <!--Navigation bar-->
+        <li><a href="../index.html">home</a></li>
+        <li><a href="../html/products.html">products</a></li>
+        <li><a href="../html/services.html">services</a></li>
+        <li><a href="../html/about.html">about</a></li>
+        <li><a href="../html/contact.html">contact</a></li>
 </ul>
 </header>
 <body>
+    <!--Page Heading-->
     <h1>Contact Us</h1>
+    <img src="../pictures/bike 8.jpg" alt="girl riding bike"><br>
+    <!--contact form-->
     <form id="questions" method="post" action=" " name="questions">
-        <input type="text" name="First Name" id="First Name"><label for="First Name">First Name</label><br>
-        <input type="text" name="Last Name" id="Last Name"><label for="Last Name">Last Name</label><br>
-        <input type="email" name="email" id="email"><label for="email">Email</label><br>
+        <input type="text" name="First Name" id="First Name"><label for="First Name">First Name</label><br><br>
+        <input type="text" name="Last Name" id="Last Name"><label for="Last Name">Last Name</label><br><br>
+        <input type="email" name="email" id="email"><label for="email">Email</label><br><br>
         <fieldset>
             <legend>What do you need help with?</legend>
         <input type="radio" name="What do you need help with?" value="cruisers" id="cruisers"><label for="cruisers">Cruisers</label><br>
@@ -31,24 +38,38 @@
         <input type="radio" name="What do you need help with?" value="repairs" id="repairs"><label for="repairs">Repairs</label><br>
         <input type="radio" name="What do you need help with?" value="question" id="question"><label for="question">Question</label><br>
     </fieldset>
-    <label for="Tell us more about what you need help with">Tell us more about what you need help with</label><br>
+    <br><fieldset>
+        <legend>Are you a new customer or a returning customer?</legend>
+        <input type="checkbox" name="Are you a new customer or a returning customer?" value="new customer" id="new customer"><label for="new customer">Cruisers</label><br>
+        <input type="checkbox" name="Are you a new customer or a returning customer?" value="first time returning customer" id="first time returning customer"><label for="first time returning customer">Cargo Bikes</label><br>
+        <input type="checkbox" name="Are you a new customer or a returning customer?" value="long time returning customer" id="long time returning customer"><label for="long time returning customer">Accessories</label><br> 
+    </fieldset>
+    <br><label for="How did you hear about us?">How did you hear about us?</label>
+
+    <br><select name="How did you hear about us?" id="How did you hear about us?">
+      <option value="Facebook">Facebook</option>
+      <option value="Twitter">Twitter</option>
+      <option value="Referral">Referral</option>
+      <option value="Advertisement">Advertisement</option>
+    </select><br> 
+    <br><label for="Tell us more about what you need help with">Tell us more about what you need help with</label><br>
     <textarea id="Tell us more about what you need help with" name="Tell us more about what you need help with"></textarea><br><br>
     </form>
+    <!--FQA-->
+    <h2><a href="../html/FAQ">Frequently Asked Questions</a></h2>
+    <p>Please view our FAQ before submitting a form. We might already have an answer for you. If your question isn't on the list, definitely send us a message. You will receive an answer from us within 24 hours. We want to anything we can to help you!  </p>
 </body>
+<!--Footer-->
 <footer>
-    <p>
-        <ul>
-            <li>Vicious Cycles</li>
-            <li>123 Main St. Raleigh, NC 27000</li>
-            <li>Phone: (919) 123-4567 Fax: (919) 123-9875</li>
-            <li>Follow us on Twitter and Facebook</li>
-        </ul>
-    </p>
-    <div>
-        <div id="page-container">
-            <div id="content-wrap">
-            </div>
-            <footer id="footer"></footer>
-            </div>
+    <br><p> &copy;Vicious Cycles 
+        <br>123 Main St. Raleigh, NC 27000 
+        <br>Phone: (919) 123-4567 Fax: (919) 123-9875 
+        <br>Follow us on Twitter and Facebook 
+        <br><a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=1209600&osid=1&continue=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&followup=https%3A%2F%2Fmail.google.com%2Fmail%2Fu%2F0%2F&emr=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin#inbox" target="blank">Send Us an email</a> 
+        <br><a href="https://www.facebook.com/">
+            <img alt="facebook logo" src="../pictures/facebook icon.png"></a>
+            <br><a href="https://twitter.com/?lang=en">
+                <img alt="twitter logo" src="../pictures/twitter icon.png"></a>
+        </p>
 </footer>
 </html>

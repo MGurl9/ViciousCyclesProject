@@ -1,4 +1,5 @@
 /* Vicious Cycles - css */
+/* Vicious Cycles logo */
 img{
     display: block;
     margin-left: auto;
@@ -6,6 +7,7 @@ img{
     width: 40%;
     padding-bottom: 1em;
 }
+/* Heading 1 */
 h1{
     text-align: center;
     font-weight: bold;
@@ -13,6 +15,7 @@ h1{
     color: #12767f;
     font-size: 2em;
 }
+/* Heading 2 */
 h2{
     text-align: center;
     font-weight: normal;
@@ -20,15 +23,20 @@ h2{
     color: #a51354;
     font-size: 1.5em;
 }
+/* Background color for website */
 body{
     background-color: #fbbf6d;
+    padding: 0;
+    margin: 0;
 }
+/* navigation bar */
 ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #12767f;
+    font-size: 1.25em;
 }
 li{
     float: left;
@@ -46,22 +54,67 @@ li a{
 li a:hover{
     background-color: #fbbf6d;
 }
+/* Size of webpage */
 #page-container{
     position: relative;
-    min-height: 100vh;
+    min-height: 20vh;
 }
+/* Footer */
 #content-wrap{
-    padding-bottom: 2.5em; /* Footer height */
+    padding-bottom: 5em; /* Footer height */
 }
 #footer{
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2.5em;
+    height: 5em;
 }
+/* Images on all pages of website */
 img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 40%;
+    max-width: 100%;
+    height: auto;
+}
+/* Heading 3 */
+h3{
+    margin-left: 1em;
+    margin-right: 1em;
+    font-size: 1.25em;
+    font-weight: bold;
+}
+/* Paragraph margins */
+p{
+    margin-left: 2em;
+    margin-right: 3em;
+}
+/* List text size */
+li{
+font-size: 1.25em;
+font-weight: bold;
+}
+/* Paragraph size and color */
+p{
+    color: #12767f;
+    font-size: 1.25em;
+}
+/* Link color */
+a{
+    color: #a51354;
+    font-size: x-large;
+}
+/* dt list */
+dt{
+    font-size: 1.25em;
+    color: #12767f;
+    margin-left: 2em;
+    margin-right: 3em;
+    font-weight: bold;
+}
+/* dd list */
+dd{
+    margin-left: 3em;
+    font-weight: bold;
+    font-size: 1.25em;
 }

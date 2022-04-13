@@ -21,24 +21,30 @@
 </ul>
 </header>
 <body>
-    <!--Links to various product pages-->
-    <section>
-    <h2><a href="../html/Cruisers">Cruisers</a></h2>
-    <img src="../pictures/bike 1.jpg" width="600" height="400" alt="cruiser bike">
-    </section>
-    <section>
-        <h2><a href="../html/Cargo Bikes">Cargo Bikes</a></h2>
-        <img src="../pictures/bike 7.jpg" width="600" height="400" alt="cargo bike">
-    </section>
-    <section>
-        <h2><a href="../html/Accessories">Accessories</a></h2>
-        <img src="../pictures/bike 3.jpg" width="600" height="400" alt="accessories">
-    </section>
-    <section>
-        <h2><a href="../html/Parts">Parts</a></h2>
-        <img src="../pictures/bike 31.jpg" width="600" height="400" alt="parts">
-    </section>
-</body>
+    <!--Page Heading-->
+    <h1>Cargo Bike Repairs</h1>
+    <img src="../pictures/bike 15.jpg" alt="fixing bike">
+    <!--list of repairs-->
+    <dl>
+        <dt>We do basic bike repairs</dt><br>
+        <dd>- Replace flat tires</dd>
+        <dd>- Fix brakes</dd>
+        <dd>- Replace broken chains</dd>
+        <dd>- Reattach chains</dd>
+        <dd>- Tighten loose bolts</dd>
+        <dd>- Adjust seat, whether it is stuck or too loose</dd>
+        <dd>- Fix broken pedals</dd>
+        <dd>- Fix gears</dd>
+        <dd>- And More!</dd><br>
+
+        <br><dt>We also do repairs on bike attachments</dt><br>
+        <dd>- Fix broken carriers</dd>
+        <dd>- Replace carriers</dd>
+        <dd>- Replace wheels on bike trailer</dd>
+        <dd>- Fix hitch on bike trailer</dd>
+        <dd>- And more!</dd><br>
+    </dl>
+    </body>
 <!--Footer-->
 <footer>
     <br><p> &copy;Vicious Cycles 

@@ -21,23 +21,37 @@
 </ul>
 </header>
 <body>
-    <!--Links to various product pages-->
+    <!--Page Heading-->
+    <h1>Bike Accessories</h1>
     <section>
-    <h2><a href="../html/Cruisers">Cruisers</a></h2>
-    <img src="../pictures/bike 1.jpg" width="600" height="400" alt="cruiser bike">
+        <!--pictures of products-->
+    <h2>Bells</h2>
+    <img src="../pictures/bike 29.jpg" alt="bike bell">
     </section>
     <section>
-        <h2><a href="../html/Cargo Bikes">Cargo Bikes</a></h2>
-        <img src="../pictures/bike 7.jpg" width="600" height="400" alt="cargo bike">
+        <h2>Baskets</h2>
+        <img src="../pictures/bike 23.jpg" alt="bike basket">
     </section>
     <section>
-        <h2><a href="../html/Accessories">Accessories</a></h2>
-        <img src="../pictures/bike 3.jpg" width="600" height="400" alt="accessories">
+        <h2>Cup Holder</h2>
+        <img src="../pictures/bike 34.jpg" alt="cup Holder">
     </section>
     <section>
-        <h2><a href="../html/Parts">Parts</a></h2>
-        <img src="../pictures/bike 31.jpg" width="600" height="400" alt="parts">
+        <h2>Helmets</h2>
+        <img src="../pictures/bike 35.jpg" alt="helmets">
     </section>
+    <section>
+        <h2>Tassels</h2>
+        <img src="../pictures/bike 32.jpg" alt="bike tassels">
+    </section>
+    <section>
+        <h2>Bike Rack</h2>
+        <img src="../pictures/bike 30.jpg" alt="bike rack">
+    </section>
+    <section>
+        <h2>Bike Carriers</h2>
+        <img src="../pictures/bike 14.jpg" alt="bike carriers">
+    </section><br>
 </body>
 <!--Footer-->
 <footer>

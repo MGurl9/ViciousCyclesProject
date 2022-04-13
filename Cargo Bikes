@@ -21,22 +21,16 @@
 </ul>
 </header>
 <body>
-    <!--Links to various product pages-->
+    <!--Page Heading-->
+    <h1>Cargo Bikes</h1>
+    <!--pictures of products-->
     <section>
-    <h2><a href="../html/Cruisers">Cruisers</a></h2>
-    <img src="../pictures/bike 1.jpg" width="600" height="400" alt="cruiser bike">
-    </section>
-    <section>
-        <h2><a href="../html/Cargo Bikes">Cargo Bikes</a></h2>
-        <img src="../pictures/bike 7.jpg" width="600" height="400" alt="cargo bike">
-    </section>
-    <section>
-        <h2><a href="../html/Accessories">Accessories</a></h2>
-        <img src="../pictures/bike 3.jpg" width="600" height="400" alt="accessories">
-    </section>
-    <section>
-        <h2><a href="../html/Parts">Parts</a></h2>
-        <img src="../pictures/bike 31.jpg" width="600" height="400" alt="parts">
+        <img src="../pictures/bike 7.jpg" alt="orange cargo bike">
+        <img src="../pictures/bike 14.jpg" alt="black cargo bike">
+        <img src="../pictures/bike 36.jpg" alt="blue cargo bike">
+        <img src="../pictures/bike 39.jpg" alt="woman riding cargo bike">
+        <img src="../pictures/bike 37.jpg" alt="black and brown cargo bike">
+        <img src="../pictures/bike 38.jpg" alt="green cargo bike">
     </section>
 </body>
 <!--Footer-->
